@@ -1,12 +1,13 @@
 import ToDoList from './toDoList';
-import todos from "./Store"
+import Todos from "./Store"
 import './App.css';
+import todos from './Store';
 function App() {
     return (
   
       <div>
-      <ToDoList todos={todos}/>
+      <ToDoList Todos/>
       </div>
-    );
+    ); 
   }
 export default App;

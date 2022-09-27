@@ -1,5 +1,5 @@
 
-import todos from "./Store"
+import Todos from "./Store"
 function ToDoList(props) {
 
     return (
@@ -7,11 +7,11 @@ function ToDoList(props) {
         <h1>List of To Do's</h1>
         <ul>
           <li>
-            {todos.map}
+            {Todos}
           </li>
         </ul>
       </div>
     );
   }
   
-  export default ToDoList ;
+  export default ToDoList ; 
