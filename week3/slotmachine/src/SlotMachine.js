@@ -1,22 +1,14 @@
-import "./SlotMachine.css"
-import {useState} from "./React"
-function SlotMachine(){
+// Import images from public
+function images(){
+    var image1 = math.floor(Math.random()*Images.length);
+    const image2= math.floor(Math.random()*Images.length);
+    const image3 = math.floor(Math.random()*Images.length);
     return(
-        
-        <div>
-            <div>
-
-            </div>
-                    <div>
-
-                    </div>
-                        <div>
-
-                        </div>
-    <button >Pull Handle</button>
-        </div>
-        
+        <>
+        {/* Image1    <div></div> */}
+        {/* Image2    <div></div> */}
+        {/* Image3    <div></div> */}
+        </>
     )
-
 }
-export default SlotMachine;
+export default image;

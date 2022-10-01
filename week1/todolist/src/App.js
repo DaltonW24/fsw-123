@@ -1,13 +1,17 @@
 import ToDoList from './toDoList';
-import Todos from "./Store"
+import Store from "./Store"
 import './App.css';
-import todos from './Store';
-function App() {
+
+const completeTodos = id => {
+   
+}
+function App(Todos, MyToDoListItems) {
     return (
   
       <div>
-      <ToDoList Todos/>
+      <ToDoList />
+      <Store MyToDoListItems={MyToDoListItems} Todos={Todos}/>
       </div>
     ); 
   }
-export default App;
+export default App; 

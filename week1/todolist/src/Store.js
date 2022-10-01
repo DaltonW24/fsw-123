@@ -1,13 +1,15 @@
- function todos(props){
- const Todos = [
-    {text: "Wake up"},
-    {text: "Take brother to school"},
-    {text: "Do School work"},
-    {text: "Pick brother up"},
-    {text: "Go to sleep"}
-] 
-return <div>
-    {Todos}
+ function MyToDoList(){
+ const Todos = ["Wake Up", "Go To School", "Do School Work", "Go to sleep" ]
+const MyToDoListItems = Todos.map((Todos) =>
+<li>{MyToDoListItems}</li>
+);
+return(
+    <div>
+        <h2>My To Do List</h2>
+        <ul>{MyToDoListItems}</ul>
     </div>
- }
-export default todos;
+);
+}
+
+
+export default MyToDoList;

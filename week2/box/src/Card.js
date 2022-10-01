@@ -5,7 +5,7 @@ function Card(props){
 		<h1>{props.title}</h1>
 		<h3>{props.subTitle}</h3>
 		<p>{props.desc}</p>
-	</div>
+	</div> 
 	)
 }
 
