@@ -1,7 +1,8 @@
  function MyToDoList(){
  const Todos = ["Wake Up", "Go To School", "Do School Work", "Go to sleep" ]
-const MyToDoListItems = Todos.map((Todos) =>
-<li>{MyToDoListItems}</li>
+const MyToDoListItems = Todos.map((todo => 
+    <li>{todo}</li>)
+
 );
 return(
     <div>

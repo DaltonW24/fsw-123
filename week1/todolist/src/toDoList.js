@@ -1,13 +1,13 @@
 
 import Todos from "./Store"
-function ToDoList(props) {
+function ToDoList(Todos) {
 
     return (
       <div>
         <h1>List of To Do's</h1>
         <ul>
           <li>
-            {Todos}
+            
           </li>
         </ul>
       </div>

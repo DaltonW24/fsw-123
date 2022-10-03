@@ -2,10 +2,7 @@ import ToDoList from './toDoList';
 import Store from "./Store"
 import './App.css';
 
-const completeTodos = id => {
-   
-}
-function App(Todos, MyToDoListItems) {
+function App(Todos, MyToDoListItems) { 
     return (
   
       <div>
