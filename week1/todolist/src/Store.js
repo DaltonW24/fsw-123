@@ -1,16 +1,10 @@
- function MyToDoList(){
- const Todos = ["Wake Up", "Go To School", "Do School Work", "Go to sleep" ]
-const MyToDoListItems = Todos.map((todo => 
-    <li>{todo}</li>)
-
-);
-return(
-    <div>
-        <h2>My To Do List</h2>
-        <ul>{MyToDoListItems}</ul>
-    </div>
-);
-}
+ export const Todos = [
+    {text: "Go to school"}, 
+    {text: "Do schoolwork"},
+    {text: "Do Dishes"},
+    {text: "Pick brother up from school"},
+    {text: "Go to sleep"}
+ ]; 
 
 
-export default MyToDoList;
+

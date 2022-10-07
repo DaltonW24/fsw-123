@@ -1,12 +1,14 @@
 import './App.css';
-import image from "./SlotMachine.js"
+import Wheel from './Wheel'
+// import image from "./SlotMachine.js"
 function App() {
   return (
     <div>
-{/* images folder */}
+    <Wheel/>
     <button>Pull Handle</button>
     </div>
   );
 }
 
-export default App;
+export default App; 
+ 

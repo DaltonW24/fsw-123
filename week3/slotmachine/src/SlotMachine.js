@@ -1,8 +1,6 @@
-// Import images from public
-function images(){
-    var image1 = math.floor(Math.random()*Images.length);
-    const image2= math.floor(Math.random()*Images.length);
-    const image3 = math.floor(Math.random()*Images.length);
+import imamgeArray from "./getImages.js"
+function getImages(){
+console.log(imageArray)
     return(
         <>
         {/* Image1    <div></div> */}
@@ -11,4 +9,4 @@ function images(){
         </>
     )
 }
-export default image;
+export default image;  

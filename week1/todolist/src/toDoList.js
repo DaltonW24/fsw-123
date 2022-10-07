@@ -1,17 +1,16 @@
 
-import Todos from "./Store"
-function ToDoList(Todos) {
-
+function ToDoList(props) {
+  const mappedTodos = props.Todos.map((todo =>
+    <li>{todo.text}</li>))
     return (
       <div>
         <h1>List of To Do's</h1>
         <ul>
-          <li>
-            
-          </li>
+        {mappedTodos}
         </ul>
       </div>
-    );
+    );  
   }
   
-  export default ToDoList ; 
+  export default ToDoList ;  
+  // Use map on this component, return to app where it is displayed

@@ -1,11 +1,10 @@
-// import { images  } from "@testing-library/react";
-
+import Apple from './images/Apple.png'
+import {useState} from './react'
 function Wheel(){
-    floor(Math.random()*7)
-    this.state;
     return(
         <>
-        {/* thiis.images.index */}
+        <img src={Apple}></im
         </>
-    )
-}
+    ) 
+} 
+export default Wheel

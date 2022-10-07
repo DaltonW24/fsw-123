@@ -1,14 +1,14 @@
 import ToDoList from './toDoList';
-import Store from "./Store"
+import {Todos} from "./Store"
 import './App.css';
 
-function App(Todos, MyToDoListItems) { 
+function App() { 
     return (
   
       <div>
-      <ToDoList />
-      <Store MyToDoListItems={MyToDoListItems} Todos={Todos}/>
+      <ToDoList Todos={Todos} />
+      
       </div>
     ); 
   }
-export default App; 
+export default App;  
