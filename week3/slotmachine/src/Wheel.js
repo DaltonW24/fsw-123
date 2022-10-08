@@ -1,10 +1,9 @@
-import Apple from './images/Apple.png'
-import {useState} from './react'
+import imageArray from './Images'
+import React, {useState} from './react'
+const count = [count, setCount]
+
 function Wheel(){
-    return(
-        <>
-        <img src={Apple}></im
-        </>
-    ) 
+    count = Math.floor(Math.random() * 7
+
 } 
 export default Wheel
