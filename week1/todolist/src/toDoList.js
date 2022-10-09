@@ -13,4 +13,3 @@ function ToDoList(props) {
   }
   
   export default ToDoList ;  
-  // Use map on this component, return to app where it is displayed
