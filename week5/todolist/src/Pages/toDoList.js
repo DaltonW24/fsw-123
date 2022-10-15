@@ -1,6 +1,6 @@
 import	{v4 as uuidv4} from "uuid";
 import { TodoList } from "./STORE.js"
-import	{ useState } from 'react'	/
+import	{ useState } from 'react'	
 
 
 
@@ -13,13 +13,14 @@ export default function ToDoListPage() {
 	...todo,
 	{
 	id: uuidv4(),
-	ToDo: toDoName,
+	ToDoName: toDoName,
 	toDoDescription: toDoValue,
 	isCompleted: false
 				
 			]
 		}
 }
+
 const completeTask = id => {
 	const temporaryList.findIndex(todo => todo.id)
 	temporaryList[index].isCompleted = !temporarylist[index]
@@ -40,3 +41,19 @@ return (
 		<FormAddItem addItem = {addTodo}/>
     </>
  </>)
+
+
+// return (
+// 	<li key = {todo.id}>
+// 	<input
+// 	type="checkbox"
+// 	checked = {todo.isCompleted}
+// 	onChange={() => completeTask()todo.id)}
+// 	/>
+// 	<span style={{ textDecoration: todo.isCompleted ? "line-through" : " " }]>
+// 		{todo.ToDOName.toDoName} ({todo.toDoDescription)}
+// 	</span>
+// 	<button className="btn-right btn-small" onclick
+// 	</li>
+// 	);
+// }
